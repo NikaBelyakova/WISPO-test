@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="images/favicons/logo-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicons/apple.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Белый сервис</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top__grid container">
+                <div class="header__top-left">
+                    <div class="header-logo">
+                        <a class="main-logo" href="index.html" title="Белый сервис главная страница">
+                            <div class="main-logo__top">
+                                <img class="main-logo__icon" src="images/svg/main-logo/logo-icon.svg"
+                                    alt="Логотип иконка">
+                                <img class="main-logo__text" src="images/svg/main-logo/logo-text-main.svg"
+                                    alt="Логотип Белый сервис">
+                            </div>
+                            <div class="main-logo__bottom">
+                                <img src="images/svg/main-logo/logo-text-small.svg" alt="Ремонт электронной техники"
+                                    width="205" height="10">
+                            </div>
+                        </a>
+                    </div>
+                    <nav class="header-navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item"><a href="">Контакты</a></li>
+                            <li class="navigation-item"><a class="navigation-item__reviews" href="">Отзывы</a></li>
+                            <li class="navigation-item"><a href="">Гарантия</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__top-right">
+                    <div class="header-contacts">
+                        <div class="header-contacts__time mobile__hide">Звоните, пн-вс 10:00 - 20:00</div>
+                        <div class="header-contacts__phone">
+                            <a href="tel:+73512207704">+7 351 220 77 04</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom container">
+            <div class="header-menu">
+                <div class="navbar navbar-expand-sm">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="navbar-header">
+                            <p class="navbar-header-title">Меню</p>
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                        </div>
+                        <ul class="header-menu__list navbar-nav">
+                            <li class="header-menu__item nav-item">
+                                <a class="menu-link catalog nav-link" aria-current="page" href="#">
+                                    <img src="images/svg/navigation-icons/catalog.svg" alt="Иконка каталога">
+                                    <span>Каталог</span>
+                                </a>
+                            </li>
+                            <li class="header-menu__item nav-item dropdown">
+                                <a class="menu-link apple nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ремонт Apple
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="nav-item  dropdown-submenu ">
+                                        <a class="dropdown-item dropdown-toggle" href="#">IPhone</a>
+                                        <ul class="dropdown-menu dropdown-subsubmenu">
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone 4                  
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone 4s
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone 5
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone SE
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone 6s
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone SE
+                                            </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                IPhone 7
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">IPad</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Macbook</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__item nav-item dropdown">
+                                <a class="menu-link smartphone nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Ремонт смартфонов
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Huawei</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Samsung</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Honor</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__item nav-item dropdown">
+                                <a class="menu-link tablet nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Ремонт планшетов
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Samsung</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Lenovo</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Huawei</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__item nav-item dropdown">
+                                <a class="menu-link laptop nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Ремонт ноутбуков
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Acer</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Asus</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Dell</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">HP</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Lenovo</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">MSI</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link playstation nav-link active" aria-current="page" href="#">Ремонт
+                                    игровых приставок</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link vacuum nav-link active" aria-current="page" href="#">Ремонт
+                                    роботов-пылесосов</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link company nav-link active" aria-current="page" href="#">Компания</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link warranty nav-link active" aria-current="page" href="#">Гарантия</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link sales nav-link active" aria-current="page" href="#">Акции</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link bonus nav-link active" aria-current="page" href="#">Бонусная
+                                    программа</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link review nav-link active" aria-current="page" href="#">Отзывы</a>
+                            </li>
+                            <li class="header-menu__item nav-item nav-mobile">
+                                <a class="menu-link contacts nav-link active" aria-current="page" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-us__mobile">
+                    <a href="#" class="contact-us">Связаться</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container intro__wrapper">
+                <div class="intro__left">
+                    <h1 class="title-main">Сервисный центр</h1>
+                    <p class="intro__text">Ремонт планшетов в Челябинске. Бесплатно продиагностируем и быстро починим
+                        любую поломку. <span class="tablet__hide">Гарантия 3 месяца</span></p>
+                    <div class="intro__btns">
+                        <a href="#" class="intro__btn-book">Записаться на диагностику</a>
+                        <a href="#" class="intro__btn-cost tablet__hide">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="2" width="2" height="10" fill="black" />
+                                <rect x="9" y="15" width="2" height="10" transform="rotate(45 9 15)" fill="black" />
+                                <rect x="11" y="6" width="2" height="10" transform="rotate(90 11 6)" fill="black" />
+                                <rect x="10" y="22" width="2" height="10" transform="rotate(135 10 22)" fill="black" />
+                                <rect x="25" y="6" width="2" height="10" transform="rotate(90 25 6)" fill="black" />
+                                <rect x="25" y="16" width="2" height="10" transform="rotate(90 25 16)" fill="black" />
+                                <rect x="25" y="21" width="2" height="10" transform="rotate(90 25 21)" fill="black" />
+                            </svg>
+                            <span>Узнать стоимость</span>
+                        </a>
+                    </div>
+                    <ul class="intro-features-list">
+                        <li class="intro-features__item intro-feature__tool">Починим даже то, от чего отказались другие
+                        </li>
+                        <li class="intro-features__item intro-feature__warranty">Гарантия нашего <br>
+                            сервиса 3 месяца</li>
+                        <li class="intro-features__item intro-feature__bonus">Собственная выгодная бонусная система</li>
+                        <li class="intro-features__item intro-feature__check">Бесплатная диагностика даже при отказе от
+                            ремонта</li>
+                    </ul>
+                </div>
+                <div class="intro__right">
+                    <p class="repair-counter">
+                        <span class="repair-counter__numbers">12&nbsp;585</span>
+                        <span class="repair-counter__text">Выполненных <br>
+                            ремонтов</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="staff">
+            <h2 class="visually-hidden">Наши специалисты</h2>
+            <p class="staff-title">Ремонт осуществляется <br>
+                первоклассными специалистами</p>
+            <p class="staff-text">Средний опыт работы наших мастеров 4 года</p>
+            <div class="staff-slider">
+                <div class="staff-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <p class="serviceman-photo">
+                                <img src="images/staff/Ilya.png" alt="Мастер Илья">
+                            </p>
+                            <dt class="serviceman-name">Илья</dt>
+                            <dd class="serviceman-about">
+                                <p class="serviceman-history">Мастер по ремонту, опыт 5 лет. В «Белом Сервисе» с июля
+                                    2020</p>
+                                <p class="serviceman-works">Более 4 800 выполненных работ</p>
+                                <blockquote>
+                                    <p class="serviceman-blockquote">Определю любую причину поломки!</p>
+                                </blockquote>
+                            </dd>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="serviceman-photo">
+                                <img src="images/staff/Alex.png" alt="Мастер Александр">
+                            </p>
+                            <dt class="serviceman-name">Александр</dt>
+                            <dd class="serviceman-about">
+                                <p class="serviceman-history">Мастер по ремонту, опыт 4,5 года. В «Белом Сервисе» с августа 2020</p>
+                                <p class="serviceman-works">Более 5 200 выполненных работ</p>
+                                <blockquote>
+                                    <p class="serviceman-blockquote">Верну к жизни, как самые первые модели, так и новинки  смартфонов.</p>
+                                </blockquote>
+                            </dd>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="serviceman-photo">
+                                <img src="images/staff/Andrew.png" alt="Мастер Илья">
+                            </p>
+                            <dt class="serviceman-name">Андрей</dt>
+                            <dd class="serviceman-about">
+                                <p class="serviceman-history">Мастер по ремонту и переклейке дисплеев, опыт 5 лет. В «Белом Сервисе» с сентября 2020</p>
+                                <p class="serviceman-works">Более 4 800 выполненных работ</p>
+                                <blockquote>
+                                    <p class="serviceman-blockquote">Ремонт Apple – мой конек!</p>
+                                </blockquote>
+                            </dd>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="serviceman-photo">
+                                <img src="images/staff/Dmitriy.png" alt="Мастер Илья">
+                            </p>
+                            <dt class="serviceman-name">Дмитрий</dt>
+                            <dd class="serviceman-about">
+                                <p class="serviceman-history">Мастер по ремонту, опыт 9 лет. В «Белом Сервисе» с марта 2020</p>
+                                <p class="serviceman-works">Более 4 800 выполненных работ</p>
+                                <blockquote>
+                                    <p class="serviceman-blockquote">Мы даем гарантию 
+                                        и исполняем ее. На технику – это всегда год.</p>
+                                </blockquote>
+                            </dd>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="services container">
+            <div class="services__row">
+                <div class="services__item services-text">
+                    <h2 class="services-title">Сервисные центры</h2>
+                    <p class="services-about">Первый сервисный центр Белый Сервис распахнул свои двери 28 марта 2012 года по адресу г. Челябинск, ул. Энгельса 75.</p>
+                    <p class="services-about">На текущий момент «Белый Сервис» имеет три филиала со своими приемщиками и мастерами. Гибко распределяем рабочую нагрузку: если персонал на одной из точек перегружен заказами, то часть работ передается их менее загруженным коллегам из другого филиала.
+                    </p>
+                    <a href="#" class="services-btn">Показать адреса</a>
+                </div>
+                <div class="services__item services-photo"><img src="images/addresses/address-1.jpg" alt="Входная группа белого цвета с оранжевыми акцентами"></div>
+            </div>
+            <div class="services__row">
+                <div class="services__item services-photo"><img src="images/addresses/address-2.jpg" alt="Входная группа с синими стёклами"></div>
+                <div class="services__item services-photo"><img src="images/addresses/address-3.jpg" alt="Офис компании с белыми стенами"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
