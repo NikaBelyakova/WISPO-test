@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../lib/bootstrap/scss/bootstrap";
 @import "../lib/swiper/swiper-bundle.min.css";
 @import "../css/dropdown-submenu.css";
 @import "../css/staff-slider.css";
@@ -19,7 +19,7 @@ $yellow: #FFA300;
     font-weight: 400;
     font-display: swap;
     src: url(../fonts/Montserrat/Montserrat-Regular.woff) format('woff'),
-        url(../fonts/Montserrat/Montserrat-Regular.woff) format('woff2')
+        url(../fonts/Montserrat/Montserrat-Regular.woff2) format('woff2')
 }
 
 @font-face {
