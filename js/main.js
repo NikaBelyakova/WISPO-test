@@ -1,5 +1,5 @@
 import '../lib/swiper/swiper-bundle.min.js';
-import '../lib/bootstrap/bootstrap.min.js';
+import '../lib/bootstrap/bootstrap.bundle.min.js';
 
 const navbar = document.querySelector('.navbar');
 const navbarPopup = navbar.querySelector('.navbar-collapse');
